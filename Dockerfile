@@ -1,8 +1,8 @@
-FROM ubuntu:12.04
+FROM ubuntu:16.04
 MAINTAINER tanshiqi <tanshiqi@gmail.com>
 
 RUN apt-get -y update && \
-    apt-get -y install curl expect-dev python sudo && \
+    apt-get -y install curl expect-dev python perl sudo && \
     cd /opt && \
     curl -C - -L -s https://github.com/ossrs/srs/archive/3.0release.tar.gz | tar xzv && \
     cd srs-3.0release/trunk && \
