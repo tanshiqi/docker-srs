@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Star Brilliant <m13253@hotmail.com>
+MAINTAINER tanshiqi <tanshiqi@gmail.com>
 
 RUN apt-get -y update && \
     apt-get -y install curl expect-dev python sudo && \
